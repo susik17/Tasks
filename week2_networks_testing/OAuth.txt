@@ -1,0 +1,44 @@
+
+https://accounts.zoho.in/oauth/v2/auth?scope=ZohoMail.messages.CREATE&client_id=YOUR_CLIENT_ID&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback
+
+curl -X POST "https://accounts.zoho.in/oauth/v2/token" \
+  -d "code=1000.ef0642966f8bcc1ade24dbb1285a0cf1.968b3fa904a3c1745c7636678cb47ce6" \
+  -d "client_id=1000.7O9Y6VROCWAC7Q5CRPTWFU8CO1LJ2X" \
+  -d "client_secret=4ee11c1a73de29866434ad125455aff41106aa2e0c" \
+  -d "redirect_uri=http://localhost:3000/callback" \
+  -d "grant_type=authorization_code"
+
+  #account id get 
+  curl -X GET "https://mail.zoho.com/api/accounts" \
+  -H "Authorization: 1000.8627875d3b94864a0bf45d6e77b5362f.cc6c8d668a17090356941890d2279178"
+
+
+  1000.3a481f42cf08cbc50659083eb649df1d.508ee5826595aff60489b21812532dc8
+
+curl -X POST https://accounts.zoho.in/oauth/v2/token \
+-d "grant_type=authorization_code" \
+-d "client_id=1000.Y7VF840C07QQQLWRKX4H0QOZJL2I9C" \
+-d "client_secret=9fbeef79b9cbca77ba3908e4f5f510aba5fccd4e56" \
+-d "redirect_uri=http://localhost:3000/callback" \
+-d "code=1000.3a481f42cf08cbc50659083eb649df1d.508ee5826595aff60489b21812532dc8"
+
+curl -X POST https://accounts.zoho.com/oauth/v2/token \
+-d "grant_type=refresh_token" \
+-d "client_id=1000.Y7VF840C07QQQLWR
+KX4H0QOZJL2I9C" \
+-d "client_secret=" \
+-d "refresh_token=1000.3a481f42cf08cbc50659083eb649df1d.508ee5826595aff60489b21812532dc8"
+
+echo "client_id=1000.Y7VF840C07QQQLWRKX4H0QOZJL2I9C"
+echo "client_secret=9fbeef79b9cbca77ba3908e4f5f510aba5fccd4e56"
+
+
+https://accounts.zoho.in/oauth/v2/auth?
+  client_id=1000.NID9MW6RDB3JAAM12E0TTN8FER1Y3M
+  &response_type=code
+  &redirect_uri=https://localhost:8080  
+  &scope=ZohoMail.mail.send,ZohoWriter.files.create
+  &access_type=offline 
+
+
+ 

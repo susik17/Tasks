@@ -1,0 +1,15 @@
+2026-03-10 17:49:24[WARNING] Invalid input format: susi_k_user
+2026-03-10 17:49:24[ERROR] Process Exited....due to invalid input: susi_k_user
+2026-03-10 17:49:39[INFO] Script started.
+2026-03-10 17:49:39[INFO] User entered valid name: usernamess
+2026-03-10 17:49:39[INFO] Script completed successfully.
+2026-03-10 17:59:02[WARNING] Invalid input format: ss
+2026-03-10 17:59:02[ERROR] Process Exited....due to invalid input: ss
+2026-03-10 17:59:13[INFO] Script started.
+2026-03-10 17:59:13[INFO] User entered valid name: usernames
+2026-03-10 17:59:13[INFO] Script completed successfully.
+2026-03-10 17:59:13[INFO] Directory created for usernames
+2026-03-10 17:59:47[WARNING] Invalid input format: 123
+2026-03-10 17:59:47[ERROR] Process Exited....due to invalid input: 123
+2026-03-10 17:59:58[WARNING] Invalid input format: 1234567
+2026-03-10 17:59:58[ERROR] Process Exited....due to invalid input: 1234567

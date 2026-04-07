@@ -1,0 +1,21 @@
+#task1 -> custom command 
+
+1 way -> diretly add to bin folder
+susi-> filename | inside file :echo "Hello"
+nano susi
+chmod +x susi    //chmod-> change mode + -> add permission x -> executable
+mv susi /usr/bin
+
+
+2 way -> custom directory -> add path to .bashrc
+mkdir mycmd
+cd mycmd
+nano susi (write as above)
+nano .bashrc
+
+//inside bashrc
+export PATH = "$HOME/mycmd:$PATH"
+
+
+//save&reload bashsr
+source .bashrc

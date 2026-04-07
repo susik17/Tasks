@@ -1,0 +1,54 @@
+#My own DNS server (BIND => open source dns server)
+# → stores records (A, MX, etc.)
+# → acts as authoritative server
+# → query → resolve should work
+
+
+# 1. Install BIND
+sudo apt update
+sudo apt install bind9 -y
+
+# 2 .Add my domain => localconfig
+sudo nano /etc/bind/named.conf.local
+
+
+#inside file
+#===============================================================================
+# zone "susidomain.local" {
+#    type master;
+#    file "/etc/bind/db.susidomain";
+# };  
+#==================================================================================
+
+#it means => "susidomain.local" for this zone => use => /etc/bind/db.susidomain (zonefile=>actualdnsRecords)
+
+#3.create Zone file 
+sudo nano /etc/bind/db.susidomain
+
+#4.Add DNS records => zone file 
+#==================================================================================
+$TTL 300
+@   IN  SOA ns1.susidomain.local. admin.susidomain.local. (
+        3
+        604800
+        86400
+        2419200
+        300 )
+
+@       IN  NS      ns1.susidomain.local.
+
+ns1     IN  A       127.0.0.1
+www     IN  A       127.0.0.1
+mail    IN  A       127.0.0.1
+
+@       IN  MX 10   mail.susidomain.local.
+#===================================================================
+#5.check config (find errors)
+sudo named-checkzone susidomain.local /etc/bind/db.susidomain
+
+#6.restart DNS
+sudo systemctl restart bind9
+
+#7.Test DNS 
+dig @127.0.0.1 www.susidomain.local #Works => IP resolve => success
+dig @127.0.0.1 MX susidomain.local  #dig => direct goes name server 

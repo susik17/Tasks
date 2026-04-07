@@ -1,0 +1,69 @@
+[2026-03-06 13:17:22] MONITOR Started for PID: 1555596
+[2026-03-06 13:17:22] Threshold: 10%
+[2026-03-06 13:17:22] Command: bash dummy_app.sh
+[2026-03-06 13:17:22] Working Dir: /home/susi-pt8230/Tasks/process_run
+[2026-03-06 13:17:22] ----------------------------------------
+[2026-03-06 13:17:22] OK: PID 1555596 CPU is 0.0% (Limit: 10%)
+[2026-03-06 13:18:13] Script Stopped. (PID: 1555742)
+[2026-03-06 13:18:13] Script Stopped. (PID: 1555742)
+[2026-03-06 13:19:59] MONITOR Started for PID: 1192429
+[2026-03-06 13:19:59] Threshold: 10%
+[2026-03-06 13:19:59] Command: /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135
+[2026-03-06 13:19:59] Working Dir: /home/susi-pt8230
+[2026-03-06 13:19:59] ----------------------------------------
+[2026-03-06 13:19:59] OK: PID 1192429 CPU is 1.6% (Limit: 10%)
+[2026-03-06 13:20:59] OK: PID 1192429 CPU is 1.7% (Limit: 10%)
+[2026-03-06 13:21:27] Script Stopped. (PID: 1556693)
+[2026-03-06 13:21:27] Script Stopped. (PID: 1556693)
+[2026-03-06 13:23:11] MONITOR Started for PID: 1192429
+[2026-03-06 13:23:11] Threshold: 0.1%
+[2026-03-06 13:23:11] Command: /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135
+[2026-03-06 13:23:11] Working Dir: /home/susi-pt8230
+[2026-03-06 13:23:11] ----------------------------------------
+[2026-03-06 13:23:11] ALERT: CPU 2.0% > Threshold 0.1%
+[2026-03-06 13:23:11] Killing PID 1192429...
+[2026-03-06 13:23:16] Restarting Process...
+[2026-03-06 13:23:16] Script Stopped. (PID: 1557605)
+[2026-03-06 13:25:55] MONITOR Started for PID: 1558516
+[2026-03-06 13:25:55] Threshold: 0.2%
+[2026-03-06 13:25:55] Command: bash dummy_app.sh
+[2026-03-06 13:25:55] Working Dir: /home/susi-pt8230/Tasks/process_run
+[2026-03-06 13:25:56] ----------------------------------------
+[2026-03-06 13:25:56] ALERT: CPU 100% > Threshold 0.2%
+[2026-03-06 13:25:56] Killing PID 1558516...
+[2026-03-06 13:26:01] Restarting Process...
+[2026-03-06 13:26:01] Script Stopped. (PID: 1558560)
+[2026-03-06 13:31:48] MONITOR Started for PID: 1559962
+[2026-03-06 13:31:48] Threshold: 0.2%
+[2026-03-06 13:31:48] Command: bash dummy_app.sh
+[2026-03-06 13:31:48] Working Dir: /home/susi-pt8230/Tasks/process_run
+[2026-03-06 13:31:48] ----------------------------------------
+[2026-03-06 13:31:48] Script Stopped. (PID: 1560080)
+[2026-03-06 13:32:48] MONITOR Started for PID: 1560221
+[2026-03-06 13:32:48] Threshold: 0.2%
+[2026-03-06 13:32:48] Command: bash dummy_app.sh
+[2026-03-06 13:32:48] Working Dir: /home/susi-pt8230/Tasks/process_run
+[2026-03-06 13:32:48] ----------------------------------------
+[2026-03-06 13:32:48] ALERT: CPU 100% > Threshold 0.2%
+[2026-03-06 13:32:48] Killing PID 1560221...
+[2026-03-06 13:32:53] Restarting Process...
+[2026-03-06 13:32:54] Process Restarted! New PID: 1560436
+[2026-03-06 13:33:54] ALERT: CPU 99.9% > Threshold 0.2%
+[2026-03-06 13:33:54] Killing PID 1560436...
+[2026-03-06 13:33:59] Restarting Process...
+[2026-03-06 13:34:00] Process Restarted! New PID: 1560780
+[2026-03-06 13:34:15] Script Stopped. (PID: 1560355)
+[2026-03-06 13:34:15] Script Stopped. (PID: 1560355)
+[2026-03-06 13:35:47] Error: PID 11560780 does not exist or no permission!
+[2026-03-06 13:35:47] Script Stopped. (PID: 1561249)
+[2026-03-06 13:36:03] MONITOR Started for PID: 1560780
+[2026-03-06 13:36:03] Threshold: 0.2%
+[2026-03-06 13:36:03] Command: bash dummy_app.sh
+[2026-03-06 13:36:03] Working Dir: /home/susi-pt8230/Tasks/process_run
+[2026-03-06 13:36:03] ----------------------------------------
+[2026-03-06 13:36:03] ALERT: CPU 99.9% > Threshold 0.2%
+[2026-03-06 13:36:03] Killing PID 1560780...
+[2026-03-06 13:36:08] Restarting Process...
+[2026-03-06 13:36:09] Process Restarted! New PID: 1561411
+[2026-03-06 13:36:32] Script Stopped. (PID: 1561331)
+[2026-03-06 13:36:32] Script Stopped. (PID: 1561331)

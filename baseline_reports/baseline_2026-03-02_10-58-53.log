@@ -1,0 +1,113 @@
+============================================================
+SYSTEM BASELINE REPORT
+Generated At : 2026-03-02 10:58:53
+Hostname     : susi-pt8230
+============================================================
+
+===== CPU LOAD SUMMARY =====
+Timestamp: 2026-03-02 10:58:53
+
+ 10:58:53 up 11 days, 22:22,  1 user,  load average: 0.88, 1.00, 1.66
+
+--- Top 5 CPU Consuming Processes ---
+    PID    PPID USER     CMD                         %CPU %MEM
+ 881913  353514 susi-pt+ /snap/firefox/7836/usr/lib/ 28.1  1.6
+ 899420  353514 susi-pt+ /snap/firefox/7836/usr/lib/  2.0  1.0
+ 353329    6327 susi-pt+ /snap/firefox/7836/usr/lib/  2.0  3.0
+   6327    6029 susi-pt+ /usr/bin/gnome-shell         1.3  1.5
+ 895749  353514 susi-pt+ /snap/firefox/7836/usr/lib/  1.3  1.3
+
+===== MEMORY USAGE SUMMARY =====
+Timestamp: 2026-03-02 10:58:53
+
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       8.7Gi       3.8Gi        88Mi        16Gi        21Gi
+Swap:           14Gi          0B        14Gi
+
+--- Key Memory Metrics (/proc/meminfo) ---
+MemTotal:       32007712 kB
+MemFree:         4022676 kB
+MemAvailable:   22845960 kB
+Buffers:           18652 kB
+Cached:         16881760 kB
+SwapCached:            0 kB
+SwapTotal:      15728636 kB
+SwapFree:       15728636 kB
+
+===== DISK USAGE SUMMARY =====
+Timestamp: 2026-03-02 10:58:53
+
+Filesystem             Type      Size  Used Avail Use% Mounted on
+tmpfs                  tmpfs     3.1G  2.7M  3.1G   1% /run
+/dev/mapper/crypt-root btrfs     160G   30G  125G  20% /
+tmpfs                  tmpfs      16G  4.0K   16G   1% /dev/shm
+tmpfs                  tmpfs     5.0M   12K  5.0M   1% /run/lock
+efivarfs               efivarfs  440K  177K  258K  41% /sys/firmware/efi/efivars
+tmpfs                  tmpfs      16G  4.2M   16G   1% /tmp
+/dev/nvme0n1p2         btrfs     2.0G  213M  1.6G  12% /boot
+/dev/nvme0n1p1         vfat      2.0G  6.2M  2.0G   1% /boot/efi
+/dev/mapper/crypt-home btrfs     310G  1.9G  307G   1% /home
+tmpfs                  tmpfs     3.1G  6.1M  3.1G   1% /run/user/1001
+
+--- Top 5 Disk Consumers in /var ---
+4.2G	/var
+3.5G	/var/lib
+2.8G	/var/lib/snapd
+1.7G	/var/lib/snapd/snaps
+1.2G	/var/lib/snapd/seed/snaps
+
+===== PROCESS SUMMARY =====
+Timestamp: 2026-03-02 10:58:53
+
+Total Processes:
+573
+
+--- Process State Distribution ---
+    269 I
+      1 R
+    303 S
+      2 Z
+
+===== LONGEST RUNNING PROCESSES =====
+Timestamp: 2026-03-02 10:58:53
+
+    PID    PPID USER     CMD                             ELAPSED
+      1       0 root     /sbin/init splash           11-22:22:31
+      2       0 root     [kthreadd]                  11-22:22:31
+      3       2 root     [pool_workqueue_release]    11-22:22:31
+      4       2 root     [kworker/R-rcu_gp]          11-22:22:31
+      5       2 root     [kworker/R-sync_wq]         11-22:22:31
+      6       2 root     [kworker/R-kvfree_rcu_recla 11-22:22:31
+      7       2 root     [kworker/R-slub_flushwq]    11-22:22:31
+      8       2 root     [kworker/R-netns]           11-22:22:31
+     11       2 root     [kworker/0:0H-events_highpr 11-22:22:31
+
+===== PROCESS CLASSIFICATION =====
+Timestamp: 2026-03-02 10:58:53
+
+--- System-Related Processes (UID < 1000) ---
+      1 root     /sbin/init splash
+      2 root     [kthreadd]
+      3 root     [pool_workqueue_release]
+      4 root     [kworker/R-rcu_gp]
+      5 root     [kworker/R-sync_wq]
+      6 root     [kworker/R-kvfree_rcu_reclaim]
+      7 root     [kworker/R-slub_flushwq]
+      8 root     [kworker/R-netns]
+     11 root     [kworker/0:0H-events_highpri]
+     13 root     [kworker/R-mm_percpu_wq]
+
+
+--- User-Initiated Processes (UID >= 1000) ---
+    PID USER     CMD
+   3280 systemd+ /usr/lib/systemd/systemd-oomd
+   3289 systemd+ /usr/lib/systemd/systemd-resolved
+   3435 message+ @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   3439 gnome-r+ /usr/libexec/gnome-remote-desktop-daemon --system
+   3639 syslog   /usr/sbin/rsyslogd -n -iNONE
+   4326 kernoops /usr/sbin/kerneloops --test
+   4332 kernoops /usr/sbin/kerneloops
+   4687 postfix  qmgr -l -t unix -u
+   4755 rtkit    /usr/libexec/rtkit-daemon
+
+============================================================

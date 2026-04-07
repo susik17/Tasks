@@ -1,0 +1,235 @@
+=== CPU Starvation Monitor Started ===
+CPU Cores: 24
+Monitoring every 5 mins...
+--------------------------------------
+Time: 2026-03-07 18:09:21
+Status: NORMAL
+Load Average: 1.58 | CPU Cores: 24
+Run Queue: 2 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 607:36 bash dummy_app.sh
+susi-pt+ 1724946  2.9  2.1 12379932 686228 ?     Sl   16:08   3:30 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659628 508056 ?     Sl   16:08   2:51 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504332 ?      Ssl  Feb18 427:15 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34106044 211708 ?     Sl   Mar06  23:29 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:09:31
+Status: NORMAL
+Load Average: 1.73 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 607:46 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379932 686228 ?     Sl   16:08   3:30 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508056 ?     Sl   16:08   2:51 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504328 ?      Ssl  Feb18 427:16 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34106456 209332 ?     Sl   Mar06  23:30 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:09:41
+Status: NORMAL
+Load Average: 1.61 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 607:56 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379932 686232 ?     Sl   16:08   3:30 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659596 508040 ?     Sl   16:08   2:51 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504380 ?      Ssl  Feb18 427:16 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34109156 213852 ?     Sl   Mar06  23:31 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:09:51
+Status: NORMAL
+Load Average: 1.60 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 608:06 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379900 686232 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659596 508040 ?     Sl   16:08   2:51 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504304 ?      Ssl  Feb18 427:16 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34100376 207860 ?     Sl   Mar06  23:32 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:10:01
+Status: NORMAL
+Load Average: 1.51 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 608:16 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379900 686232 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659596 508040 ?     Sl   16:08   2:51 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504372 ?      Ssl  Feb18 427:17 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34100440 207976 ?     Sl   Mar06  23:33 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:10:11
+Status: NORMAL
+Load Average: 1.51 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1754852  100  0.0  11408  5140 pts/7    R+   18:10   0:00 ps aux --sort=-%cpu
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 608:26 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379900 686232 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508056 ?     Sl   16:08   2:51 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504292 ?      Ssl  Feb18 427:17 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:10:21
+Status: NORMAL
+Load Average: 1.43 | CPU Cores: 24
+Run Queue: 2 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1754942  100  0.0  11408  5132 pts/7    R+   18:10   0:00 ps aux --sort=-%cpu
+susi-pt+ 1558646 35.2  0.0   7400  3656 ?        R    Mar06 608:36 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379916 686236 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508108 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504372 ?      Ssl  Feb18 427:17 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:10:31
+Status: NORMAL
+Load Average: 1.36 | CPU Cores: 24
+Run Queue: 25 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 608:46 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379916 686236 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508108 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504284 ?      Ssl  Feb18 427:18 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.7 34118464 227240 ?     Sl   Mar06  23:34 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:10:41
+Status: NORMAL
+Load Average: 1.31 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 608:56 bash dummy_app.sh
+susi-pt+ 1755105 20.0  0.2 2579960 74328 ?       Sl   18:10   0:00 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44087 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9cb6c99a-1e61-4582-82f6-1a66f3fcf1d4} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 32 tab
+susi-pt+ 1724946  2.8  2.1 12379948 686248 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508108 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504292 ?      Ssl  Feb18 427:18 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:10:51
+Status: NORMAL
+Load Average: 2.73 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1755238  100  0.0  11408  5128 pts/7    R+   18:10   0:00 ps aux --sort=-%cpu
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 609:06 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379900 686248 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659596 508092 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504424 ?      Ssl  Feb18 427:19 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:11:01
+Status: NORMAL
+Load Average: 2.47 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 609:16 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379900 686244 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659596 508092 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029424 504252 ?      Ssl  Feb18 427:19 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34104744 213056 ?     Sl   Mar06  23:35 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:11:11
+Status: NORMAL
+Load Average: 2.39 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 609:26 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.1 12379868 686240 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508108 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029420 504160 ?      Ssl  Feb18 427:19 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34117712 223064 ?     Sl   Mar06  23:35 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:11:21
+Status: NORMAL
+Load Average: 2.17 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 609:37 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12385100 669148 ?     Sl   16:08   3:31 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508128 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6029420 504188 ?      Ssl  Feb18 427:20 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.7 34117976 224096 ?     Sl   Mar06  23:36 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:11:31
+Status: NORMAL
+Load Average: 1.99 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 609:47 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12383052 661520 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659612 508128 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6027380 504120 ?      Ssl  Feb18 427:20 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34108964 216628 ?     Sl   Mar06  23:37 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:11:41
+Status: NORMAL
+Load Average: 1.84 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1755701  100  0.0  11408  5124 pts/7    R+   18:11   0:00 ps aux --sort=-%cpu
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 609:57 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12383052 660752 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11659596 508112 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6027380 504124 ?      Ssl  Feb18 427:21 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:11:51
+Status: NORMAL
+Load Average: 1.71 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 610:07 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12376828 658084 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11658572 491384 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6027380 504080 ?      Ssl  Feb18 427:21 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34105384 213464 ?     Sl   Mar06  23:41 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:12:01
+Status: NORMAL
+Load Average: 1.60 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 610:17 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12376828 658084 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11658572 491388 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6025332 504552 ?      Ssl  Feb18 427:21 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34105096 214120 ?     Sl   Mar06  23:42 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:12:11
+Status: NORMAL
+Load Average: 1.51 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1756022  100  0.0  11408  5120 pts/7    R+   18:12   0:00 ps aux --sort=-%cpu
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 610:27 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12376812 658060 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11658588 491412 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6025332 504284 ?      Ssl  Feb18 427:22 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:12:21
+Status: NORMAL
+Load Average: 1.51 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 610:37 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12376844 658060 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11658588 491616 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6025332 504164 ?      Ssl  Feb18 427:22 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34105112 214224 ?     Sl   Mar06  23:46 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------
+Time: 2026-03-07 18:12:31
+Status: NORMAL
+Load Average: 1.43 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1756230  100  0.0  11408  5108 pts/7    R+   18:12   0:00 ps aux --sort=-%cpu
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 610:47 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12376844 658060 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11658588 491616 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6025332 504216 ?      Ssl  Feb18 427:22 /usr/bin/gnome-shell
+--------------------------------------
+Time: 2026-03-07 18:12:42
+Status: NORMAL
+Load Average: 1.36 | CPU Cores: 24
+Run Queue: 1 | CPU Idle: 97%
+Top CPU Processes:
+susi-pt+ 1558646 35.3  0.0   7400  3656 ?        R    Mar06 610:57 bash dummy_app.sh
+susi-pt+ 1724946  2.8  2.0 12376844 658060 ?     Sl   16:08   3:32 /snap/firefox/7836/usr/lib/firefox/firefox
+susi-pt+ 1726131  2.3  1.5 11658588 491616 ?     Sl   16:08   2:52 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44035 -prefMapHandle 1:277857 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7b3f1fb-f414-413c-a861-d78c7f03ef5a} -parentPid 1724946 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 11 tab
+susi-pt+    6327  1.7  1.5 6025332 504216 ?      Ssl  Feb18 427:22 /usr/bin/gnome-shell
+susi-pt+ 1557641  1.3  0.6 34105048 213956 ?     Sl   Mar06  23:47 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --enable-crash-reporter=2e8bb0e1-10b4-4fab-993b-752ad8aca34f,no_channel --user-data-dir=/home/susi-pt8230/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11024164162489479526,5746886757828016340,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709013486085115
+--------------------------------------

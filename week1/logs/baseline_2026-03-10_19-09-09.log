@@ -1,0 +1,33 @@
+========================================
+SYSTEM BASELINE REPORT
+Generated at: Tue 10 Mar 2026 07:09:09 PM IST
+========================================
+
+----- CPU LOAD SUMMARY -----
+Tue 10 Mar 2026 07:09:09 PM IST
+ 19:09:09 up 20 days,  6:32,  1 user,  load average: 1.78, 1.49, 1.52
+
+----- MEMORY USAGE SUMMARY -----
+Tue 10 Mar 2026 07:09:09 PM IST
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi        10Gi       1.6Gi       422Mi        18Gi        20Gi
+Swap:           14Gi        31Mi        14Gi
+
+----- DISK USAGE SUMMARY -----
+Tue 10 Mar 2026 07:09:09 PM IST
+Filesystem              Size  Used Avail Use% Mounted on
+tmpfs                   3.1G  2.8M  3.1G   1% /run
+/dev/mapper/crypt-root  160G   35G  121G  23% /
+tmpfs                    16G  199M   16G   2% /dev/shm
+tmpfs                   5.0M   12K  5.0M   1% /run/lock
+efivarfs                440K  177K  258K  41% /sys/firmware/efi/efivars
+tmpfs                    16G  8.4M   16G   1% /tmp
+/dev/nvme0n1p2          2.0G  213M  1.6G  12% /boot
+/dev/nvme0n1p1          2.0G  6.2M  2.0G   1% /boot/efi
+/dev/mapper/crypt-home  310G  2.4G  306G   1% /home
+tmpfs                   3.1G  7.3M  3.1G   1% /run/user/1001
+
+----- RUNNING PROCESS COUNT -----
+Tue 10 Mar 2026 07:09:09 PM IST
+579
+

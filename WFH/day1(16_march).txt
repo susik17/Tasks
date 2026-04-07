@@ -1,0 +1,50 @@
+
+
+🧠 How to Study This (SRE way)
+
+Focus grouping:
+
+Discovery → DNS
+
+Reachability → BGP, IP, ICMP
+
+Connection → TCP / UDP
+
+Security → TLS
+
+Communication → HTTP / gRPC / WS
+
+Scaling → CDN + Load Balancer
+
+Backend → Internal protocols
+
+Control → Rate limit + WAF
+
+Infra → Cloud networking
+13/03/2026
+
+1.Packet flow in the OSI Model
+2.Network topologies and types of networks
+3.Network devices inside laptop and mobile
+4.Tested network using ping
+5.Tested localhost (127.0.0.1) loopback without internet
+
+16/03/2026
+
+1.TCP three-way handshake learning in depth
+2.DNS and DHCP flow
+3.Practice networking commands  -ss, tcpdump, dig, mtr.
+4.Try to explore these using virtual machines
+
+17/03/2026 
+
+19/03/2026
+
+1.Remaining networking topics
+2.Do the given tasks 
+
+20/03/2026 
+
+1.practical implementation of learned topics
+2.pending tasks
+

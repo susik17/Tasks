@@ -1,0 +1,22 @@
+: '
+
+#=======================Basic if-else structure======================
+if [ condition ]; then
+    # Condition true 
+    echo "Success"
+else
+    # Condition false 
+    echo "Failed"
+fi
+#space is important after [ and before ]
+
+#=======================elif structure======================
+if [ condition1 ]; then
+    echo "Condition 1 is true"
+elif [ condition2 ]; then
+    echo "Condition 2 is true"
+else
+    echo "Both conditions are false"
+fi  
+'
+

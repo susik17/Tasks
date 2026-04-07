@@ -1,0 +1,98 @@
+ WEEK 1 — Linux Systems & Process Fundamentals:
+ 
+Learning Topics
+ 
+Linux system architecture (kernel, user space)
+CPU scheduling and load concepts
+Memory allocation and usage patterns
+Disk usage vs disk I/O
+Process lifecycle (PID, PPID, states)
+Long-running vs short-lived processes
+System baseline definition and purpose
+Difference between normal and abnormal system behaviour
+Shell script structure and execution flow
+
+
+
+WEEK 2 — Shell Scripting, Logic & Reliability, Networking Basics
+
+→ Input validation techniques
+→ Conditional logic and branching
+→ Exit codes and failure signalling
+→ Defensive scripting principles
+→ Script readability and maintainability
+→ Operational health classification (OK / WARNING / CRITICAL)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+→ OSI Model and Networking Concepts (types of networks, Network topologies)
+→ IP addressing: IPv4/IPv6, subnet, gateway, NAT
+→ Ports & protocols: TCP/UDP, HTTP, HTTPS, DNS, SSH
+→ DNS & routing basics
+→ Network performance: latency, bandwidth, packet loss
+→ Firewalls & security basics
+→ Linux networking commands
+
+WEEK 3 — Logs, Monitoring & Advanced Networking 
+
+Role of logs in system observability
+Difference between metrics and logs
+Log severity levels (INFO, WARN, ERROR)
+Noise vs signal in logs
+Log parsing techniques
+Structured vs unstructured logs
+Basic anomaly detection concepts
+
+Load balancing & traffic distribution
+TLS/SSL handshake & secure communication
+WebSockets & persistent connections
+CDN & edge networking fundamentals
+Traffic flow, packet analysis & rate limiting
+Public cloud networking architecture basics (IP subnetting, route tables & security controls)
+
+
+WEEK 4 — Automation, Operational Workflows, DC & IAM
+
+Learning Topics:
+
+→ Importance of automation in operations
+→ Script chaining and orchestration
+→ Separation of concerns in automation
+→ Operational reporting standards
+→ Log retention and rotation concepts
+→ Failure isolation and detection
+
+→ Data center fundamentals & infrastructure components
+→ Build management, artifact packaging & deployment workflows
+→ VPC architecture & subnet design concepts
+→ Virtualization fundamentals (VM concepts & KVM basics 
+→ IAM (Identity & Access Management) architecture – IAM design, role engineering, policy enforcement
+→ Authentication & Authorization fundamentals – MFA, passwordless auth, credential security, and identity verification, RBAC, ABAC, least privilege, Zero Trust
+
+
+Week 1-2: "How data travels" 
+   ↓
+Week 3: "How to see everything" (Logs + Metrics + Alerts)
+   ↓
+Week 4: "How to scale safely & automate"
+   ↓
+🎯 FINAL: "I can design, deploy, monitor & fix a cloud-native app end-to-end"
+
+23/03/2026
+
+SSH 
+Network performance: latency, bandwidth, packet loss
+Firewalls & security  
+
+
+24/03/2026 
+previous:
+
+1.geoDNS 
+2.tcp connections & bandwidth script
+3.TLS model
+4.smtp implement
+5.icmp 
+
+Today 
+
+1.ssh,firewalls - practical implement 
+

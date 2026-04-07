@@ -1,0 +1,668 @@
+1============================================================
+SYSTEM BASELINE REPORT
+Generated At : 2026-02-26 09:48:18
+Hostname     : susi-pt8230
+============================================================
+
+===== CPU LOAD SUMMARY =====
+Timestamp: 2026-02-26 09:48:18
+
+ 09:48:18 up 7 days, 21:12,  1 user,  load average: 0.46, 0.41, 0.39
+
+--- Top 5 CPU Consuming Processes ---
+    PID    PPID USER     CMD                         %CPU %MEM
+ 618742  618735 susi-pt+ ps -eo pid,ppid,user,cmd,%c  100  0.0
+ 353329    6327 susi-pt+ /snap/firefox/7836/usr/lib/  1.8  3.0
+ 354077  353514 susi-pt+ /snap/firefox/7836/usr/lib/  1.8  4.1
+   6327    6029 susi-pt+ /usr/bin/gnome-shell         1.3  1.5
+ 615603  353514 susi-pt+ /snap/firefox/7836/usr/lib/  1.2  1.1
+
+===== MEMORY USAGE SUMMARY =====
+Timestamp: 2026-02-26 09:48:18
+
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       6.9Gi        10Gi        97Mi        12Gi        23Gi
+Swap:           14Gi          0B        14Gi
+
+--- Key Memory Metrics (/proc/meminfo) ---
+MemTotal:       32007712 kB
+MemFree:        10791956 kB
+MemAvailable:   24816164 kB
+Buffers:           18652 kB
+Cached:         12923032 kB
+SwapCached:            0 kB
+SwapTotal:      15728636 kB
+SwapFree:       15728636 kB
+
+===== DISK USAGE SUMMARY =====
+Timestamp: 2026-02-26 09:48:18
+
+Filesystem             Type      Size  Used Avail Use% Mounted on
+tmpfs                  tmpfs     3.1G  2.7M  3.1G   1% /run
+/dev/mapper/crypt-root btrfs     160G   29G  127G  19% /
+tmpfs                  tmpfs      16G  4.0K   16G   1% /dev/shm
+tmpfs                  tmpfs     5.0M   12K  5.0M   1% /run/lock
+efivarfs               efivarfs  440K  177K  258K  41% /sys/firmware/efi/efivars
+tmpfs                  tmpfs      16G  4.1M   16G   1% /tmp
+/dev/nvme0n1p2         btrfs     2.0G  213M  1.6G  12% /boot
+/dev/nvme0n1p1         vfat      2.0G  6.2M  2.0G   1% /boot/efi
+/dev/mapper/crypt-home btrfs     310G  1.8G  307G   1% /home
+tmpfs                  tmpfs     3.1G  6.1M  3.1G   1% /run/user/1001
+
+--- Top 5 Disk Consumers in /var ---
+3.8G	/var
+3.3G	/var/lib
+2.6G	/var/lib/snapd
+1.4G	/var/lib/snapd/snaps
+1.2G	/var/lib/snapd/seed/snaps
+
+===== PROCESS SUMMARY =====
+Timestamp: 2026-02-26 09:48:19
+
+Total Processes:
+574
+
+--- Process State Distribution ---
+    251 I
+      1 R
+    322 S
+      2 Z
+
+===== LONGEST RUNNING PROCESSES =====
+Timestamp: 2026-02-26 09:48:19
+
+    PID    PPID USER     CMD                             ELAPSED
+      1       0 root     /sbin/init splash            7-21:12:11
+      2       0 root     [kthreadd]                   7-21:12:11
+      3       2 root     [pool_workqueue_release]     7-21:12:11
+      4       2 root     [kworker/R-rcu_gp]           7-21:12:11
+      5       2 root     [kworker/R-sync_wq]          7-21:12:11
+      6       2 root     [kworker/R-kvfree_rcu_recla  7-21:12:11
+      7       2 root     [kworker/R-slub_flushwq]     7-21:12:11
+      8       2 root     [kworker/R-netns]            7-21:12:11
+     11       2 root     [kworker/0:0H-events_highpr  7-21:12:11
+
+===== PROCESS CLASSIFICATION =====
+Timestamp: 2026-02-26 09:48:19
+
+--- System-Related Processes (UID < 1000) ---
+      1 root     /sbin/init splash
+      2 root     [kthreadd]
+      3 root     [pool_workqueue_release]
+      4 root     [kworker/R-rcu_gp]
+      5 root     [kworker/R-sync_wq]
+      6 root     [kworker/R-kvfree_rcu_reclaim]
+      7 root     [kworker/R-slub_flushwq]
+      8 root     [kworker/R-netns]
+     11 root     [kworker/0:0H-events_highpri]
+     13 root     [kworker/R-mm_percpu_wq]
+     14 root     [ksoftirqd/0]
+     15 root     [rcu_preempt]
+     16 root     [rcu_exp_par_gp_kthread_worker/1]
+     17 root     [rcu_exp_gp_kthread_worker]
+     18 root     [migration/0]
+     19 root     [idle_inject/0]
+     20 root     [cpuhp/0]
+     21 root     [cpuhp/1]
+     22 root     [idle_inject/1]
+     23 root     [migration/1]
+     24 root     [ksoftirqd/1]
+     26 root     [kworker/1:0H-events_highpri]
+     27 root     [cpuhp/2]
+     28 root     [idle_inject/2]
+     29 root     [migration/2]
+     30 root     [ksoftirqd/2]
+     32 root     [kworker/2:0H-events_highpri]
+     33 root     [cpuhp/3]
+     34 root     [idle_inject/3]
+     35 root     [migration/3]
+     36 root     [ksoftirqd/3]
+     38 root     [kworker/3:0H-events_highpri]
+     39 root     [cpuhp/4]
+     40 root     [idle_inject/4]
+     41 root     [migration/4]
+     42 root     [ksoftirqd/4]
+     44 root     [kworker/4:0H-events_highpri]
+     45 root     [cpuhp/5]
+     46 root     [idle_inject/5]
+     47 root     [migration/5]
+     48 root     [ksoftirqd/5]
+     50 root     [kworker/5:0H-events_highpri]
+     51 root     [cpuhp/6]
+     52 root     [idle_inject/6]
+     53 root     [migration/6]
+     54 root     [ksoftirqd/6]
+     56 root     [kworker/6:0H-events_highpri]
+     57 root     [cpuhp/7]
+     58 root     [idle_inject/7]
+     59 root     [migration/7]
+     60 root     [ksoftirqd/7]
+     62 root     [kworker/7:0H-events_highpri]
+     63 root     [cpuhp/8]
+     64 root     [idle_inject/8]
+     65 root     [migration/8]
+     66 root     [ksoftirqd/8]
+     68 root     [kworker/8:0H-events_highpri]
+     69 root     [cpuhp/9]
+     70 root     [idle_inject/9]
+     71 root     [migration/9]
+     72 root     [ksoftirqd/9]
+     74 root     [kworker/9:0H-events_highpri]
+     75 root     [cpuhp/10]
+     76 root     [idle_inject/10]
+     77 root     [migration/10]
+     78 root     [ksoftirqd/10]
+     80 root     [kworker/10:0H-events_highpri]
+     81 root     [cpuhp/11]
+     82 root     [idle_inject/11]
+     83 root     [migration/11]
+     84 root     [ksoftirqd/11]
+     86 root     [kworker/11:0H-events_highpri]
+     87 root     [cpuhp/12]
+     88 root     [idle_inject/12]
+     89 root     [migration/12]
+     90 root     [ksoftirqd/12]
+     92 root     [kworker/12:0H-events_highpri]
+     93 root     [rcu_exp_par_gp_kthread_worker/2]
+     94 root     [cpuhp/13]
+     95 root     [idle_inject/13]
+     96 root     [migration/13]
+     97 root     [ksoftirqd/13]
+     99 root     [kworker/13:0H-events_highpri]
+    100 root     [cpuhp/14]
+    101 root     [idle_inject/14]
+    102 root     [migration/14]
+    103 root     [ksoftirqd/14]
+    105 root     [kworker/14:0H-events_highpri]
+    106 root     [cpuhp/15]
+    107 root     [idle_inject/15]
+    108 root     [migration/15]
+    109 root     [ksoftirqd/15]
+    111 root     [kworker/15:0H-events_highpri]
+    112 root     [cpuhp/16]
+    113 root     [idle_inject/16]
+    114 root     [migration/16]
+    115 root     [ksoftirqd/16]
+    117 root     [kworker/16:0H-events_highpri]
+    118 root     [cpuhp/17]
+    119 root     [idle_inject/17]
+    120 root     [migration/17]
+    121 root     [ksoftirqd/17]
+    123 root     [kworker/17:0H-events_highpri]
+    124 root     [cpuhp/18]
+    125 root     [idle_inject/18]
+    126 root     [migration/18]
+    127 root     [ksoftirqd/18]
+    129 root     [kworker/18:0H-events_highpri]
+    130 root     [cpuhp/19]
+    131 root     [idle_inject/19]
+    132 root     [migration/19]
+    133 root     [ksoftirqd/19]
+    135 root     [kworker/19:0H-events_highpri]
+    136 root     [cpuhp/20]
+    137 root     [idle_inject/20]
+    138 root     [migration/20]
+    139 root     [ksoftirqd/20]
+    141 root     [kworker/20:0H-events_highpri]
+    142 root     [cpuhp/21]
+    143 root     [idle_inject/21]
+    144 root     [migration/21]
+    145 root     [ksoftirqd/21]
+    147 root     [kworker/21:0H-events_highpri]
+    148 root     [cpuhp/22]
+    149 root     [idle_inject/22]
+    150 root     [migration/22]
+    151 root     [ksoftirqd/22]
+    153 root     [kworker/22:0H-events_highpri]
+    154 root     [cpuhp/23]
+    155 root     [idle_inject/23]
+    156 root     [migration/23]
+    157 root     [ksoftirqd/23]
+    159 root     [kworker/23:0H-events_highpri]
+    162 root     [kdevtmpfs]
+    163 root     [kworker/R-inet_frag_wq]
+    164 root     [rcu_tasks_kthread]
+    165 root     [rcu_tasks_rude_kthread]
+    166 root     [rcu_tasks_trace_kthread]
+    167 root     [kauditd]
+    168 root     [khungtaskd]
+    169 root     [oom_reaper]
+    172 root     [kworker/R-writeback]
+    173 root     [kcompactd0]
+    174 root     [ksmd]
+    175 root     [khugepaged]
+    176 root     [kworker/R-kblockd]
+    177 root     [kworker/R-blkcg_punt_bio]
+    178 root     [kworker/R-kintegrityd]
+    179 root     [irq/9-acpi]
+    182 root     [kworker/R-tpm_dev_wq]
+    183 root     [kworker/R-ata_sff]
+    187 root     [kworker/R-md]
+    188 root     [kworker/R-md_bitmap]
+    189 root     [kworker/R-edac-poller]
+    191 root     [kworker/R-devfreq_wq]
+    193 root     [watchdogd]
+    196 root     [kworker/R-quota_events_unbound]
+    197 root     [kworker/5:1H-kblockd]
+    200 root     [irq/27-AMD-Vi]
+    201 root     [kswapd0]
+    202 root     [ecryptfs-kthread]
+    203 root     [kworker/R-kthrotld]
+    205 root     [irq/36-pciehp]
+    206 root     [irq/37-pciehp]
+    207 root     [kworker/R-acpi_thermal_pm]
+    208 root     [hwrng]
+    212 root     [kworker/R-kstrp]
+    240 root     [kworker/R-charger_manager]
+    242 root     [irq/28-ACPI:Event]
+    243 root     [kworker/0:1H-kblockd]
+    244 root     [irq/29-ACPI:Event]
+    245 root     [irq/30-ACPI:Event]
+    246 root     [irq/31-ACPI:Event]
+    247 root     [irq/32-ACPI:Event]
+    248 root     [irq/33-ACPI:Event]
+    249 root     [irq/34-ACPI:Event]
+    250 root     [irq/35-ACPI:Event]
+    277 root     [kworker/23:1H-kblockd]
+    282 root     [kworker/13:1H-kblockd]
+    310 root     [kworker/7:1H-kblockd]
+    311 root     [kworker/15:1H-kblockd]
+    312 root     [kworker/2:1H-kblockd]
+    313 root     [kworker/14:1H-kblockd]
+    314 root     [kworker/3:1H-kblockd]
+    316 root     [kworker/6:1H-kblockd]
+    317 root     [kworker/22:1H-kblockd]
+    318 root     [kworker/21:1H-kblockd]
+    319 root     [kworker/16:1H-kblockd]
+    320 root     [kworker/12:1H-kblockd]
+    322 root     [kworker/17:1H-kblockd]
+    330 root     [kworker/4:1H-kblockd]
+    332 root     [kworker/20:1H-kblockd]
+    333 root     [kworker/9:1H-kblockd]
+    337 root     [kworker/10:1H-kblockd]
+    338 root     [kworker/19:1H-kblockd]
+    339 root     [kworker/8:1H-kblockd]
+    340 root     [kworker/18:1H-kblockd]
+    342 root     [kworker/11:1H-kblockd]
+    348 root     [kworker/1:1H-kblockd]
+    400 root     [irq/70-PNP0C50:00]
+    401 root     [kworker/R-nvme-wq]
+    402 root     [kworker/R-nvme-reset-wq]
+    403 root     [kworker/R-nvme-delete-wq]
+    404 root     [kworker/R-nvme-auth-wq]
+    409 root     [kworker/R-USBC000:00-con1]
+    449 root     [kworker/R-USBC000:00-con2]
+   1548 root     [kworker/R-kdmflush/252:0]
+   1549 root     [kworker/R-kcryptd_io-252:0-1]
+   1550 root     [kworker/R-kcryptd-252:0-1]
+   1551 root     [dmcrypt_write/252:0]
+   1593 root     [kworker/R-btrfs-worker]
+   1594 root     [kworker/R-btrfs-delalloc]
+   1595 root     [kworker/R-btrfs-flush_delalloc]
+   1596 root     [kworker/R-btrfs-cache]
+   1597 root     [kworker/R-btrfs-fixup]
+   1598 root     [kworker/R-btrfs-endio]
+   1599 root     [kworker/R-btrfs-endio-meta]
+   1600 root     [kworker/R-btrfs-rmw]
+   1601 root     [kworker/R-btrfs-endio-write]
+   1602 root     [kworker/R-btrfs-compressed-write]
+   1603 root     [kworker/R-btrfs-freespace-write]
+   1604 root     [kworker/R-btrfs-delayed-meta]
+   1605 root     [kworker/R-btrfs-qgroup-rescan]
+   1606 root     [btrfs-cleaner]
+   1607 root     [btrfs-transaction]
+   1674 root     /usr/lib/systemd/systemd-journald
+   1748 root     /usr/lib/systemd/systemd-udevd
+   1757 root     [psimon]
+   1949 root     [kworker/R-cfg80211]
+   1978 root     [kworker/u99:1-hci0]
+   2007 root     [napi/phy0-0]
+   2008 root     [napi/phy0-0]
+   2011 root     [irq/150-ACP_PCI_IRQ]
+   2054 root     [kworker/R-btrfs-worker]
+   2055 root     [kworker/R-btrfs-delalloc]
+   2056 root     [kworker/R-btrfs-flush_delalloc]
+   2057 root     [kworker/R-btrfs-cache]
+   2058 root     [kworker/R-btrfs-fixup]
+   2059 root     [kworker/R-btrfs-endio]
+   2060 root     [kworker/R-btrfs-endio-meta]
+   2061 root     [kworker/R-btrfs-rmw]
+   2062 root     [kworker/R-btrfs-endio-write]
+   2063 root     [kworker/R-btrfs-compressed-write]
+   2064 root     [kworker/R-btrfs-freespace-write]
+   2065 root     [kworker/R-btrfs-delayed-meta]
+   2066 root     [kworker/R-btrfs-qgroup-rescan]
+   2067 root     [btrfs-cleaner]
+   2068 root     [btrfs-transaction]
+   2108 root     [mt76-tx phy0]
+   2139 root     [kworker/R-amdgpu-reset-dev]
+   2149 root     [kworker/R-ttm]
+   2181 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2182 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2183 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2184 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2185 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2186 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2187 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2188 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2189 root     [kworker/R-amdgpu_dm_hpd_rx_offload_wq]
+   2190 root     [kworker/R-dm_vblank_control_workqueue]
+   2191 root     [kworker/R-amdgpu_dm_hpd_wq]
+   2196 root     [card1-crtc0]
+   2197 root     [card1-crtc1]
+   2198 root     [card1-crtc2]
+   2199 root     [card1-crtc3]
+   2200 root     [kworker/R-gfx_0.0.0]
+   2201 root     [kworker/R-comp_1.0.0]
+   2202 root     [kworker/R-comp_1.1.0]
+   2203 root     [kworker/R-comp_1.2.0]
+   2204 root     [kworker/R-comp_1.3.0]
+   2205 root     [kworker/R-comp_1.0.1]
+   2206 root     [kworker/R-comp_1.1.1]
+   2207 root     [kworker/R-comp_1.2.1]
+   2208 root     [kworker/R-comp_1.3.1]
+   2209 root     [kworker/R-sdma0]
+   2210 root     [kworker/R-vcn_unified_0]
+   2211 root     [kworker/R-jpeg_dec_0]
+   2212 root     [kworker/R-vpe]
+   3123 root     [kworker/R-kdmflush/252:1]
+   3124 root     [kworker/R-kcryptd_io-252:1-2]
+   3125 root     [kworker/R-kcryptd-252:1-2]
+   3126 root     [dmcrypt_write/252:1]
+   3141 root     [kworker/R-btrfs-worker]
+   3142 root     [kworker/R-btrfs-delalloc]
+   3143 root     [kworker/R-btrfs-flush_delalloc]
+   3144 root     [kworker/R-btrfs-cache]
+   3145 root     [kworker/R-btrfs-fixup]
+   3146 root     [kworker/R-btrfs-endio]
+   3147 root     [kworker/R-btrfs-endio-meta]
+   3148 root     [kworker/R-btrfs-rmw]
+   3149 root     [kworker/R-btrfs-endio-write]
+   3150 root     [kworker/R-btrfs-compressed-write]
+   3151 root     [kworker/R-btrfs-freespace-write]
+   3152 root     [kworker/R-btrfs-delayed-meta]
+   3153 root     [kworker/R-btrfs-qgroup-rescan]
+   3154 root     [btrfs-cleaner]
+   3155 root     [btrfs-transaction]
+   3178 root     /opt/CrowdStrike/falcond
+   3181 root     falcon-sensor-bpf
+   3317 root     /sbin/auditd
+   3356 root     [audit_prune_tree]
+   3434 root     /usr/libexec/bluetooth/bluetoothd
+   3442 root     /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+   3445 root     /usr/libexec/power-profiles-daemon
+   3453 root     /usr/lib/snapd/snapd
+   3456 root     /usr/libexec/accounts-daemon
+   3457 root     /usr/sbin/cron -f -P
+   3459 root     /usr/libexec/switcheroo-control
+   3463 root     /usr/lib/systemd/systemd-logind
+   3475 root     /usr/libexec/udisks2/udisksd
+   3477 root     /opt/ZohoDirectory/zagent-directory
+   3576 root     /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+   3636 root     /usr/libexec/boltd
+   3760 root     /usr/sbin/NetworkManager --no-daemon
+   3861 root     /usr/local/manageengine/uems_agent/data/usb/dcusbagent -t &
+   3863 root     /etc/passivedns/src/passivedns
+   3865 root     /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   3876 root     /etc/0Agent/bin/0Agent
+   3902 root     systemd-tty-ask-password-agent --wall
+   3909 root     /etc/0Agent/bin/osqueryd --pidfile=/etc/0Agent/data/osquery/osquery.pid --database_path=/etc/0Agent/data/osquery/osquery.db --extensions_socket=/etc/0Agent/data/osquery/osquery.em --logger_path=/etc/0Agent/data/osquery/logs --allow_unsafe --disable_logging=true --logger_stderr=false
+   3943 root     [kworker/R-ib-comp-wq]
+   3944 root     [kworker/R-ib-comp-unb-wq]
+   3945 root     [kworker/R-ib_mcast]
+   3946 root     [kworker/R-ib_nl_sa_wq]
+   3955 root     /usr/sbin/gdm3
+   3962 root     /etc/0Agent/bin/osqueryd
+   4683 root     /usr/lib/postfix/sbin/master -w
+   4985 root     /usr/libexec/upowerd
+   5344 root     [krfcommd]
+   5934 root     /usr/libexec/fwupd/fwupd
+   5958 root     gdm-session-worker [pam/gdm-password]
+   6112 root     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1001/doc
+   7173 root     /usr/bin/python3 /usr/lib/ubuntu-advantage/esm_cache.py
+   7663 root     [kworker/R-tls-strp]
+  52638 root     sshd: /usr/sbin/sshd -D [listener] 0 of 10-60 startups
+  79847 root     /usr/local/manageengine/uems_agent/bin/dcservice -t &
+  79924 root     /usr/local/manageengine/uems_agent/bin/dcondemand &
+ 285438 root     [kworker/u99:2-hci0]
+ 472196 root     [kworker/11:2-mm_percpu_wq]
+ 487492 root     [kworker/21:0-events]
+ 526615 root     [kworker/4:0-events]
+ 529957 root     [kworker/20:0-mm_percpu_wq]
+ 582506 root     [kworker/23:0-events]
+ 591657 root     [kworker/6:1-mm_percpu_wq]
+ 592721 root     [kworker/5:2-events]
+ 592844 root     /usr/sbin/ModemManager
+ 593637 root     [kworker/2:0-events]
+ 593789 root     [kworker/8:2-mm_percpu_wq]
+ 593979 root     [kworker/13:4-mm_percpu_wq]
+ 595791 root     [kworker/16:2-mm_percpu_wq]
+ 596397 root     [kworker/1:2-events]
+ 598542 root     [kworker/18:0-events]
+ 598732 root     [psimon]
+ 599235 root     [kworker/10:0-events]
+ 606699 root     [kworker/17:1-events]
+ 607833 root     [kworker/12:1-mm_percpu_wq]
+ 611077 root     [kworker/22:0-events]
+ 611432 root     [kworker/3:1-mm_percpu_wq]
+ 611463 root     [kworker/u97:2-flush-btrfs-1]
+ 611609 root     [kworker/u96:2-gfx_0.0.0]
+ 611954 root     [kworker/9:0-events]
+ 612714 root     [kworker/u97:6-flush-btrfs-1]
+ 612834 root     [kworker/u100:7-ttm]
+ 613541 root     [kworker/14:1-mm_percpu_wq]
+ 613894 root     [kworker/u97:12-kcryptd-252:0-1]
+ 613911 root     [kworker/u97:29-btrfs-endio-write]
+ 613989 root     [kworker/19:0-mm_percpu_wq]
+ 615152 root     [kworker/15:1-mm_percpu_wq]
+ 615195 root     [kworker/0:1-mm_percpu_wq]
+ 615289 root     [kworker/u100:1-ttm]
+ 615326 root     [kworker/u98:0-btrfs-delayed-meta]
+ 615786 root     [kworker/u98:4-btrfs-delayed-meta]
+ 616176 root     [kworker/19:1-events]
+ 616319 root     [kworker/23:2]
+ 616340 root     [kworker/u96:1-mt76]
+ 616503 root     [kworker/7:1-events]
+ 616509 root     [kworker/u97:0-btrfs-delayed-meta]
+ 616573 root     [kworker/u98:5-btrfs-endio]
+ 616635 root     [kworker/u100:3-ttm]
+ 616654 root     [kworker/u101:2-ttm]
+ 616732 root     [kworker/u98:7-kcryptd-252:1-2]
+ 616751 root     [kworker/4:1-events]
+ 616865 root     [kworker/8:0-mm_percpu_wq]
+ 616912 root     [kworker/u97:9-kcryptd-252:1-2]
+ 617147 root     [kworker/0:0-events]
+ 617183 root     [kworker/6:0-events]
+ 617191 root     [kworker/20:2-events]
+ 617220 root     [kworker/22:1-events]
+ 617233 root     [kworker/u98:1-flush-btrfs-3]
+ 617258 root     [kworker/16:0-events]
+ 617293 root     [kworker/u101:3-ttm]
+ 617305 root     [kworker/10:2-events]
+ 617490 root     [kworker/2:1-events]
+ 617501 root     [kworker/11:1-mm_percpu_wq]
+ 617515 root     [kworker/7:2-mm_percpu_wq]
+ 617738 root     [kworker/0:2-events]
+ 617751 root     [kworker/17:0-events]
+ 617813 root     [kworker/21:1-cgroup_free]
+ 617851 root     [kworker/u97:1-kcryptd-252:0-1]
+ 617880 root     [kworker/19:2]
+ 617887 root     [kworker/1:0-events]
+ 617901 root     [kworker/5:1-events]
+ 617903 root     [kworker/15:0-events]
+ 617949 root     [kworker/13:1-mm_percpu_wq]
+ 617957 root     [kworker/12:2-events]
+ 617966 root     [kworker/u96:3-comp_1.2.1]
+ 617989 root     [kworker/u98:3-kcryptd-252:1-2]
+ 617993 root     [kworker/3:2-events]
+ 618037 root     [kworker/18:2-events]
+ 618045 root     [kworker/u100:0-ttm]
+ 618062 root     [kworker/14:2-events]
+ 618069 root     [kworker/9:1-events]
+ 618079 root     [kworker/u98:6-flush-btrfs-1]
+ 618080 root     [kworker/2:2-events]
+ 618192 root     [kworker/7:0-events]
+ 618196 root     [kworker/11:0-events]
+ 618257 root     [kworker/6:2-events]
+ 618293 root     [kworker/10:1-events]
+ 618320 root     [kworker/8:1-mm_percpu_wq]
+ 618331 root     [kworker/u100:2-ttm]
+ 618332 root     [kworker/u100:4]
+ 618427 root     [kworker/1:1-events]
+ 618480 root     [kworker/u101:0-ttm]
+ 618495 root     [kworker/15:2-events]
+ 618523 root     [kworker/12:0-mm_percpu_wq]
+ 618531 root     [kworker/5:0]
+ 618542 root     [kworker/17:2-events]
+ 618585 root     [kworker/3:0-events]
+ 618630 root     [kworker/4:2]
+ 618647 root     [kworker/14:0]
+ 618653 root     [kworker/9:2-events]
+ 618680 root     [kworker/u101:1]
+
+
+--- User-Initiated Processes (UID >= 1000) ---
+    PID USER     CMD
+   3280 systemd+ /usr/lib/systemd/systemd-oomd
+   3289 systemd+ /usr/lib/systemd/systemd-resolved
+   3435 message+ @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   3439 gnome-r+ /usr/libexec/gnome-remote-desktop-daemon --system
+   3639 syslog   /usr/sbin/rsyslogd -n -iNONE
+   4326 kernoops /usr/sbin/kerneloops --test
+   4332 kernoops /usr/sbin/kerneloops
+   4687 postfix  qmgr -l -t unix -u
+   4755 rtkit    /usr/libexec/rtkit-daemon
+   4909 colord   /usr/libexec/colord
+   6029 susi-pt+ /usr/lib/systemd/systemd --user
+   6032 susi-pt+ (sd-pam)
+   6041 susi-pt+ /usr/bin/pipewire
+   6042 susi-pt+ /usr/bin/pipewire -c filter-chain.conf
+   6049 susi-pt+ /usr/bin/wireplumber
+   6051 susi-pt+ /usr/bin/pipewire-pulse
+   6055 susi-pt+ /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1001/keyring
+   6064 susi-pt+ /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   6100 susi-pt+ /usr/libexec/xdg-document-portal
+   6105 susi-pt+ /usr/libexec/xdg-permission-store
+   6164 susi-pt+ /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   6172 susi-pt+ /usr/libexec/gnome-session-binary --session=ubuntu
+   6247 susi-pt+ /usr/libexec/gcr-ssh-agent --base-dir /run/user/1001/gcr
+   6249 susi-pt+ /usr/libexec/gnome-session-ctl --monitor
+   6269 susi-pt+ /usr/libexec/gvfsd
+   6276 susi-pt+ /usr/libexec/gvfsd-fuse /run/user/1001/gvfs -f
+   6278 susi-pt+ /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   6326 susi-pt+ /usr/libexec/at-spi-bus-launcher --launch-immediately
+   6327 susi-pt+ /usr/bin/gnome-shell
+   6340 susi-pt+ /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 12 --address=unix:path=/run/user/1001/at-spi/bus
+   6414 susi-pt+ /usr/libexec/at-spi2-registryd --use-gnome-session
+   6424 susi-pt+ /usr/libexec/gnome-shell-calendar-server
+   6443 susi-pt+ /usr/libexec/evolution-source-registry
+   6447 susi-pt+ /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   6468 susi-pt+ /usr/bin/ibus-daemon --panel disable
+   6470 susi-pt+ /usr/libexec/gsd-a11y-settings
+   6472 susi-pt+ /usr/libexec/gsd-color
+   6473 susi-pt+ /usr/libexec/gsd-datetime
+   6474 susi-pt+ /usr/libexec/gsd-housekeeping
+   6475 susi-pt+ /usr/libexec/gsd-keyboard
+   6477 susi-pt+ /usr/libexec/gsd-media-keys
+   6478 susi-pt+ /usr/libexec/gsd-power
+   6479 susi-pt+ /usr/libexec/gsd-print-notifications
+   6480 susi-pt+ /usr/libexec/gsd-rfkill
+   6481 susi-pt+ /usr/libexec/gsd-screensaver-proxy
+   6484 susi-pt+ /usr/libexec/gsd-sharing
+   6486 susi-pt+ /usr/libexec/gsd-smartcard
+   6487 susi-pt+ /usr/libexec/gsd-sound
+   6493 susi-pt+ /usr/libexec/gsd-wacom
+   6504 susi-pt+ /usr/libexec/gvfs-udisks2-volume-monitor
+   6565 susi-pt+ /usr/libexec/ibus-dconf
+   6567 susi-pt+ /usr/libexec/ibus-extension-gtk3
+   6571 susi-pt+ /usr/libexec/ibus-portal
+   6594 susi-pt+ /usr/libexec/gsd-disk-utility-notify
+   6623 susi-pt+ /usr/libexec/gsd-printer
+   6628 susi-pt+ /usr/libexec/evolution-data-server/evolution-alarm-notify
+   6697 susi-pt+ /usr/libexec/goa-daemon
+   6712 susi-pt+ /usr/libexec/evolution-calendar-factory
+   6714 susi-pt+ /usr/libexec/goa-identity-service
+   6724 susi-pt+ /usr/libexec/ibus-engine-simple
+   6750 susi-pt+ /usr/libexec/gvfsd-metadata
+   6757 susi-pt+ /usr/libexec/dconf-service
+   6768 susi-pt+ /usr/libexec/evolution-addressbook-factory
+   6801 susi-pt+ /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+   6826 susi-pt+ /usr/libexec/xdg-desktop-portal
+   6834 susi-pt+ /usr/libexec/tracker-miner-fs-3
+   6836 susi-pt+ /usr/libexec/xdg-desktop-portal-gnome
+   6842 susi-pt+ /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   6889 susi-pt+ /usr/libexec/xdg-desktop-portal-gtk
+   6963 susi-pt+ /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+   7022 susi-pt+ /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+   7184 _apt     /usr/lib/apt/methods/https
+   7625 susi-pt+ /usr/bin/update-notifier
+   8238 susi-pt+ /usr/bin/snap userd
+   9473 systemd+ /usr/lib/systemd/systemd-timesyncd
+  17112 susi-pt+ /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1001/.mutter-Xwaylandauth.BBTXK3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+  17134 susi-pt+ /usr/libexec/gsd-xsettings
+  17166 susi-pt+ /usr/libexec/ibus-x11
+  17171 susi-pt+ /usr/libexec/mutter-x11-frames
+  52685 postfix  tlsmgr -l -t unix -u -c
+  74625 susi-pt+ /usr/bin/speech-dispatcher -s -t 0
+  74660 susi-pt+ [sd_espeak-ng-mb] <defunct>
+  74706 susi-pt+ /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+  74764 susi-pt+ /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+  74778 susi-pt+ /usr/lib/speech-dispatcher-modules/sd_openjtalk /etc/speech-dispatcher/modules/openjtalk.conf
+  80208 susi-pt+ /usr/local/manageengine/uems_agent/bin/dcuserservice -t
+  80688 susi-pt+ [sh] <defunct>
+ 163557 susi-pt+ /usr/lib/libreoffice/program/oosplash --writer
+ 163575 susi-pt+ /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+ 353329 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox
+ 353389 susi-pt+ /snap/firefox/7836/usr/lib/firefox/crashhelper 353329 9 /tmp/ 11
+ 353514 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {90b4af28-d4fc-42a8-b78f-8c05b17d8a56} -parentPid 353329 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 1 forkserver
+ 353518 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -parentBuildID 20260214051242 -prefsHandle 0:36659 -prefMapHandle 1:277843 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {617e2d27-6152-4f5b-8ca3-7384644c2e12} -parentPid 353329 -crashReporter 5 -crashHelper 6 -appDir /snap/firefox/7836/usr/lib/firefox/browser 2 socket
+ 353537 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:36793 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {48eb9962-5e92-4aea-be4e-a5282e2a6857} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 3 tab
+ 353548 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -parentBuildID 20260214051242 -prefsHandle 0:36793 -prefMapHandle 1:277843 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {4a4cb979-33f5-4964-b75f-7d0535464b5e} -parentPid 353329 -crashReporter 5 -crashHelper 6 -appDir /snap/firefox/7836/usr/lib/firefox/browser 4 rdd
+ 353742 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:36850 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {dbccf5b3-09fb-4ae6-a569-8f6457c18f6e} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 5 tab
+ 354072 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -parentBuildID 20260214051242 -sandboxingKind 0 -prefsHandle 0:47753 -prefMapHandle 1:277843 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {fc384b63-a647-4c79-a2b3-1be2a82e6627} -parentPid 353329 -crashReporter 5 -crashHelper 6 -appDir /snap/firefox/7836/usr/lib/firefox/browser 6 utility
+ 354077 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43829 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9549894d-a400-4f02-bce4-f8adccc71bdd} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 7 tab
+ 437089 susi-pt+ /usr/bin/gnome-calendar --gapplication-service
+ 438969 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44230 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e1ae749d-f5b9-4452-99ec-700e94dff0dd} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 102 tab
+ 439754 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44229 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0d7b5a61-a29c-4188-8933-dd7efcd2af84} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 104 tab
+ 439991 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44229 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {516f8eac-8320-47f5-a17a-e9922268ae7f} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 106 tab
+ 446059 susi-pt+ /usr/libexec/gnome-terminal-server
+ 446067 susi-pt+ bash
+ 454147 susi-pt+ /usr/bin/gnome-text-editor /home/susi-pt8230/firstone/InsideFirst/fruits/hello.py
+ 463740 susi-pt+ bash
+ 477684 susi-pt+ /usr/bin/eog /home/susi-pt8230/Pictures/Screenshots/Screenshot from 2026-02-25 07-52-24.png
+ 488388 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44635 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a77dee0c-c8f3-4a88-bf53-ee0e3285d21e} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 171 tab
+ 526679 susi-pt+ /snap/firmware-updater/210/bin/firmware-notifier
+ 526957 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44632 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9b2e980c-476d-4033-8e22-ff9cc9df4baa} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 172 tab
+ 527353 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44632 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {802025f0-c9cd-4041-86af-da7932e3d430} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 173 tab
+ 592818 polkitd  /usr/lib/polkit-1/polkitd --no-debug
+ 599475 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44635 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {71ab0e33-efa3-45dd-98cf-aadcb0077848} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 208 tab
+ 602719 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44633 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b7f2d42a-f282-4960-ace4-417ca7ebfdaf} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 209 tab
+ 602955 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44633 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {fed42993-978b-4692-b623-155bdc8928bc} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 211 tab
+ 604414 susi-pt+ nano S_shell.c
+ 606866 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {861d2fb6-788d-4902-bb18-f18efb6bdf83} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 261 tab
+ 607371 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4b504de7-0ec0-4e25-8c65-3cd8222fba11} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 263 tab
+ 607988 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {ffd6985a-7003-4ced-b08b-2d45e108d8ea} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 265 tab
+ 608060 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {007f4651-f044-4097-95f0-4fdb283620c7} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 266 tab
+ 608062 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {cc7f9551-564f-4762-b0d2-906507bfadf7} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 267 tab
+ 608095 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {1cc41617-36b4-4653-b4ba-2c80b7e9f81f} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 268 tab
+ 608166 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6dca6c23-09a8-448c-8edf-0e5798c4f2b0} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 269 tab
+ 608173 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {8442762d-961d-4a10-afa0-e4155f49e074} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 270 tab
+ 608180 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e997e17-b7ff-4bf5-a644-b023456bc751} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 271 tab
+ 608264 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f766aa52-bb76-4c4d-875c-e23468ba1aac} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 272 tab
+ 608271 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {42bff23e-2e2d-4abe-a01f-9bbed6f3c8a7} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 273 tab
+ 608337 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f1889ac7-babe-4807-8323-076060e99bc0} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 274 tab
+ 608415 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {ced4d89c-e0bc-4f36-93aa-26be5be633cd} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 276 tab
+ 608422 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {ffa2abf6-4bcf-41ca-abd2-77db0cba6f0b} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 277 tab
+ 613943 postfix  pickup -l -t unix -u -c
+ 614359 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {238816f6-324b-4e4a-a51b-665bd0fef27d} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 291 tab
+ 614954 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f70c7d5a-b09d-41fb-b7b0-ad1203f40bf4} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 292 tab
+ 615258 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e543e9b5-7c36-4ffc-bc8d-fc76bcfd7070} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 293 tab
+ 615603 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b2c6b5df-31a0-4dbb-b83a-0958dfababdf} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 297 tab
+ 616449 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f9a5587c-70e7-4c2d-8c2d-b3f0df751ef1} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 302 tab
+ 617381 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b981f9ea-66d6-4d58-8945-c72587f2c142} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 303 tab
+ 617819 susi-pt+ /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44634 -prefMapHandle 1:277843 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c5c78740-639d-407a-9588-fda3da06120c} -parentPid 353329 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 304 tab
+ 618735 susi-pt+ /bin/bash ./week1_baseline.sh
+ 618765 susi-pt+ ps -eo pid,user,cmd
+ 618766 susi-pt+ awk $2 != "root" {print}
+
+============================================================

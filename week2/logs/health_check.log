@@ -1,0 +1,7 @@
+2026-03-17 14:37:28 [INFO] Health Check Started
+2026-03-17 14:37:28 [INFO] Thresholds: CPU(70/90), MEM(70/90), DISK(80/95)
+2026-03-17 14:37:29 [OK] CPU is 3% (Normal)
+2026-03-17 14:37:29 [OK] Memory is 28% (Normal)
+2026-03-17 14:37:29 [OK] Disk is 24% (Normal)
+2026-03-17 14:37:29 [INFO] System Health: HEALTHY
+2026-03-17 14:37:29 [INFO] Health Check Completed

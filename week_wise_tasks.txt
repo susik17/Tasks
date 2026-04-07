@@ -1,0 +1,140 @@
+Week 1 Task — System Baseline & Process Analysis
+ 
+Task Objective: 
+         Establish a baseline view of system behaviour and process activity that can be used for future comparison and incident analysis.
+ 
+Task Requirements:
+ 
+1. System Baseline Collection
+Create a script that captures:
+    1. CPU load summary
+    2. Memory usage summary
+    3. Disk usage summary
+    4. Total number of running processes
+ 
+Requirements:
+→ Each section must have a timestamp
+→ Output must be human-readable
+→ Clear section headers must be used
+2. Process Analysis: 
+From the current system state:
+→ Identify the longest-running processes
+Classify processes into:
+→ System-related
+→ User-initiated
+ 
+Note: which processes are expected and which may require attention over time
+ 
+3. Baseline Report
+Combine all outputs into one baseline report file that represents:
+→ Normal system behaviour
+→ Reference data for later weeks
+ 
+4. Documentation Expectations:
+Explain:
+ 1. Which metrics appear normal
+ 2. Which metrics could indicate risk in production
+ 3. Why process count matters over time
+ 4. How this baseline would be used during incidents
+ 
+Deliverables:
+1.  Baseline script(s)
+2. Baseline report file
+3. Written analysis (½–1 page)
+
+=====================================================================================================================
+
+Week 2 Task — Safe System Health Check Utility
+
+Task Objective:
+Develop a reliable system health check script that behaves safely under both valid and invalid conditions.
+
+Task Requirements:
+1. Input Handling
+Accept CPU, memory, and disk thresholds as inputs
+Validate:
+→ Missing inputs
+→ Non-numeric values
+→ Invalid ranges
+Script must stop execution on invalid input
+
+2. Resource Measurement
+→ Collect current CPU, memory, and disk usage
+→ Normalize output format
+→ Avoid raw command dumps
+
+3. Health Classification
+Based on thresholds:
+Classify system health as:
+→ OK
+→ WARNING
+→ CRITICAL
+Output must clearly explain the classification 
+
+4. Error Handling
+→ Handle unexpected failures
+→ Print meaningful error messages
+→ Exit with appropriate exit codes
+
+5. Script Refinement
+→ Improve variable naming
+→ Add meaningful comments
+→ Ensure readability for future maintainers
+
+Documentation Expectations
+Explain:
+→ Why each threshold was chosen
+→ What happens when thresholds are crossed
+→ How the script behaves on failures
+
+==================================================================================================
+
+Week 3 Task — Log Monitoring & Analysis
+ 
+Task Objective:
+Create a log analysis workflow that detects abnormal behaviour and produces actionable reports.
+ 
+Task Requirements:
+ 
+1. Log Generation
+ 
+Generate logs with:
+→ Timestamp
+→ Severity level
+→ Message
+Simulate:
+→ Normal operations
+→ Degraded behaviour
+→ Failure scenarios
+ 
+2. Log Parsing
+→ Extract WARN and ERROR entries
+→ Count occurrences by severity
+ 
+3. Anomaly Detection
+→ Define thresholds for excessive WARN/ERROR entries
+→ When exceeded, generate an alert entry
+
+4. Report Generation
+Produce:
+→ Human-readable summary report
+ 
+ 
+Documentation Expectations:
+Explain:
+→ Which patterns indicate potential incidents
+→ Why certain log entries are more critical
+
+26/03/2026
+
+1.ssh all mechanisms 
+2.iptables 
+3.tasks
+
+27/03/2026
+
+1.OAuth
+2.SSH all mechanisms
+3.iptables implement
+
+
